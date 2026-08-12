@@ -5,4 +5,4 @@ Data source: https://data.gov.au/data/dataset/nsw-nsw-education-incident-reports
 
 Cleaning: Python / Pandas
 
-Analysis: SQL
+Analysis: PostgreSQL
