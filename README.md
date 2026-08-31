@@ -3,9 +3,11 @@ The aim of this project is to answer the following question: Where are the safes
 
 Data source: https://data.gov.au/data/dataset/nsw-nsw-education-incident-reports-nsw-government-schools
 
-Cleaning: Python / Pandas
+Data Cleaning: Python / Pandas
 
-Analysis: PostgreSQL
+Data Analysis: PostgreSQL
+
+Data Visualisation: Power BI
 
 School Incident Data Cleaning Pipeline (2019-2023)
 ====================================================
