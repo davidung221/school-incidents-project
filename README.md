@@ -5,7 +5,7 @@ Data source: https://data.gov.au/data/dataset/nsw-nsw-education-incident-reports
 
 Tools: Python, SQL (PostgreSQL), Power BI
 
-#Data Cleaning
+# Data Cleaning
 Goal: Combine 5 years of school incident report files (mix of .xlsx and .csv,
 with inconsistent column structures across years) into a single clean
 dataframe, ready for SQL/analysis.
@@ -19,7 +19,7 @@ Steps:
      - Principal Network Names mapping to more than one Operational Directorate, caused by NSW restructuring directorates from 2020 onward. Used the 2023 dataset as the source of truth for the correct network -> directorate mapping.
 5. Export the cleaned result to a new CSV.
 
-#Analysis
+# Analysis
 The following questions are answered:
 **1. What are the most common incident groups and categories?**
 Assault is the most common, followed by Indecent Assault and Possession of a Weapon.
@@ -51,12 +51,12 @@ See report for full list. Barwon has lowest overall incident count of all princi
 **12. Deeper dive into the three main incident categories (assault, indecent assault, possession of a weapon).**
 
 
-#Recommendations
+# ecommendations
 - Increase vigilance and take extra measures when planning these activities. Indecent/sexual assault incidents were more common during off-site activities and excursions in the dataset. Schools should consider additional supervision, clear safeguarding procedures, appropriate staff-to-student ratios, and risk assessments when planning these activities.
 - Increase access to student wellbeing and mental health support. The number of recorded incidents increased over the years, with a notable rise following the COVID-19 period. Schools should consider investing in accessible counselling and wellbeing services, while strengthening strategies for the early identification and intervention of students experiencing difficulties.
 - Provide additional support during periods when incidents are more frequent. Incidents peak in March, May, August and November, which broadly coincide with periods of increased academic assessment and examination activity, including NAPLAN, HSC examinations and school assignments. While this pattern does not establish that academic pressure causes incidents, schools can use these periods to increase wellbeing check-ins, promote awareness of counselling and support services, provide quiet spaces, and offer additional study and academic support.
 
-#Limitations
+# Limitations
 - Incident counts do not account for differences in school/student population.
 - Reported incidents may not represent all incidents that occurred.
 - The analysis identifies associations/patterns rather than causes.
