@@ -1,24 +1,18 @@
 # school-incidents-project
-The aim of this project is to answer the following question: Where are the safest schools in NSW?
+The aim of this project is to help inform a parent's decision-making on which schools to attend, and to provide recommendations to schools on what to improve.
 
 Data source: https://data.gov.au/data/dataset/nsw-nsw-education-incident-reports-nsw-government-schools
 
-Data Cleaning: Python / Pandas
+Tools: Python, SQL (PostgreSQL), Power BI
 
-Data Analysis: PostgreSQL
-
-Data Visualisation: Power BI
-
-School Incident Data Cleaning Pipeline (2019-2023)
-====================================================
+# School Incident Data Cleaning Pipeline (2019-2023)
 Goal: Combine 5 years of school incident report files (mix of .xlsx and .csv,
 with inconsistent column structures across years) into a single clean
 dataframe, ready for SQL/analysis.
 
 Steps:
 1. Load every year's files.
-2. Standardise each dataframe to match the 2020 file's column structure
-   (chosen as the reference schema since it's the cleanest/most complete).
+2. Standardise each dataframe to match the 2020 file's column structure (chosen as the reference schema since it follows the latest revised schema).
 3. Combine everything into one dataframe.
 4. Fix two known data quality issues discovered during cleaning:
      - "Connected Communities Team 1/2/3" being treated as 3 separate
