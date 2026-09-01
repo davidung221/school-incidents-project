@@ -28,46 +28,56 @@ Steps:
 5. Export the cleaned result to a new CSV.
 
 # Analysis
-The following questions are answered:
-
 **1. What are the most common incident groups and categories?**
+
 Assault is the most common, followed by Indecent Assault and Possession of a Weapon.
 
 **2. How has incident volume changed over time?**
+
 There is a trend of increasing incidents over time. Incidents dipped in 2020/2021 because of COVID, but sharply rose afterwards, exceeding pre-COVID (2019) years. 2023 has almost double the number of incidents in 2019.
 
 **3. How does incident volume vary by school term?**
-No noticeable pattern. The most recent years (2022, 2023) suggest a pattern of increasing incidents in Term 1 and 4.
-Incidents consistently peak during March, May, August, November. Most likely due to assessments and exams.
-Incidents consistently dip during January, April, July, September, December. Most likely due to school holidays.
+- No noticeable pattern. The most recent years (2022, 2023) suggest a pattern of increasing incidents in Term 1 and 4.
+- Incidents consistently peak during March, May, August, November. Most likely due to assessments and exams.
+- Incidents consistently dip during January, April, July, September, December. Most likely due to school holidays.
 
 **4. Where do incidents most commonly occur?**
+
 Vast majority of incidents occur at school. However, most incidents outside of school won’t be reported, so the number of incidents outside of school cannot be accurately measured.
 
 **5. How does incident type vary by location/context?**
+
 Assault is the most common incident type, followed by indecent assault. However, during excursions indecent assault is more common.
 
 **6. How does the incident profile differ between operational directorates?**
-Rural North and Regional South are the most vulnerable to floods. The three principal network's hit the hardest are Camden, Lennox Coast and Richmond.
-Regional North takes the lead in suicidality (attempted suicide, self-harm, suicidal intentions).
-Metropolitan South and West have the highest counts of sexual incidents and police operations.
+- Rural North and Regional South are the most vulnerable to floods. The three principal network's hit the hardest are Camden, Lennox Coast and Richmond.
+- Regional North takes the lead in suicidality (attempted suicide, self-harm, suicidal intentions).
+- Metropolitan South and West have the highest counts of sexual incidents and police operations.
 
 **7. Has the composition of incidents changed over time?**
-Assault is consistently the highest category.
-Composition remains largely the same, with incident count increasing across most categories.
+- Assault is consistently the highest category.
+- Composition remains largely the same, with incident count increasing across most categories.
 
 **8. Top 10 Worst Principal Networks (highest incident count).**
+
 See report for full list. Tuggerah Lakes has highest incident count of all principal network's.
 
 **9. Top 10 Best Principal Networks (lowest incident count).**
+
 See report for full list. Barwon has lowest overall incident count of all principal network's.
 
 **10. The 10 principal network's with the highest incident count each year.**
+
 See sql_query_tables folder.
+
 **11. The 10 principal network's with the lowest consecutive incident counts each year.**
+
 See sql_query_tables folder.
+
 **12. Deeper dive into the three main incident categories (assault, indecent assault, possession of a weapon).**
+
 See sql_query_tables folder.
+
 
 # Recommendations
 - Increase vigilance and take extra measures when planning these activities. Indecent/sexual assault incidents were more common during off-site activities and excursions in the dataset. Schools should consider additional supervision, clear safeguarding procedures, appropriate staff-to-student ratios, and risk assessments when planning these activities.
