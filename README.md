@@ -79,3 +79,4 @@ See sql_query_tables folder.
 - Reported incidents may not represent all incidents that occurred.
 - The analysis identifies associations/patterns rather than causes.
 - The dataset lists the date and time an incident is reported, not the actual time an incident occurred.
+- Differences in reporting practices and incident classification may affect the consistency and comparability of the data, which could influence the findings of the analysis.
