@@ -5,6 +5,14 @@ Data source: https://data.gov.au/data/dataset/nsw-nsw-education-incident-reports
 
 Tools: Python, SQL (PostgreSQL), Power BI
 
+# Dataset Overview
+- 17964 records.
+- Date range from 16/01/2019 - 22/12-2023.
+- 114 total principal network's.
+- 11 operational directorate's.
+- 7 incident groups.
+- 36 primary categories.
+
 # Data Cleaning
 Goal: Combine 5 years of school incident report files (mix of .xlsx and .csv,
 with inconsistent column structures across years) into a single clean
@@ -55,11 +63,11 @@ See report for full list. Tuggerah Lakes has highest incident count of all princ
 See report for full list. Barwon has lowest overall incident count of all principal network's.
 
 **10. The 10 principal network's with the highest incident count each year.**
-
+See sql_query_tables folder.
 **11. The 10 principal network's with the lowest consecutive incident counts each year.**
-
+See sql_query_tables folder.
 **12. Deeper dive into the three main incident categories (assault, indecent assault, possession of a weapon).**
-
+See sql_query_tables folder.
 
 # Recommendations
 - Increase vigilance and take extra measures when planning these activities. Indecent/sexual assault incidents were more common during off-site activities and excursions in the dataset. Schools should consider additional supervision, clear safeguarding procedures, appropriate staff-to-student ratios, and risk assessments when planning these activities.
