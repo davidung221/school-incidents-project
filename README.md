@@ -1,5 +1,5 @@
 # school-incidents-project
-The aim of this project is to help inform a parent's decision-making on which schools their children should attend, and to provide recommendations to schools on what to improve.
+The aim of this project is to analyse reported incidents in NSW public schools to identify patterns and trends in incident frequency, type, location, time, and distribution across principal networks and operational directorates. The findings are intended to provide insights that can support informed decision-making and help schools identify areas where preventative measures or additional attention may be beneficial.
 
 Data source: https://data.gov.au/data/dataset/nsw-nsw-education-incident-reports-nsw-government-schools
 
