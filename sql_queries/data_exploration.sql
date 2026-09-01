@@ -23,3 +23,27 @@ SELECT
 FROM school_incidents
 GROUP BY year
 ORDER BY year;
+
+-- incidents by incident group
+select 
+	incident_group,
+	count(*) as incident_count
+from school_incidents
+group by incident_group
+order by incident_count desc;
+
+-- incidents by primary category
+select 
+	primary_category,
+	count(*) as incident_count
+from school_incidents
+group by primary_category
+order by incident_count desc;
+
+-- incidents by operational directorate
+select 
+	operational_directorate,
+	count(*) as incident_count
+from school_incidents
+group by operational_directorate
+order by incident_count desc;
