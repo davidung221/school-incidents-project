@@ -1,5 +1,5 @@
 """
-School Incident Data Cleaning Pipeline (2019-2023)
+Data Cleaning Pipeline
 ====================================================
 Goal: Combine 5 years of school incident report files (mix of .xlsx and .csv,
 with inconsistent column structures across years) into a single clean
